@@ -1,0 +1,33 @@
+<svg id="vjret" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 47.882">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(247,142,30,0.6);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #444;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 1.4px;
+      }
+    </style>
+  </defs>
+  <path id="Path_637" data-name="Path 637" class="cls-1" d="M12.01,14.788A8.14,8.14,0,1,0,0,4.566S5.53,7.419,6.417,12.15A7,7,0,0,1,12.01,14.788Z" transform="translate(27.12 9.925)"/>
+  <path id="Path_588" data-name="Path 588" class="cls-2" d="M99.646,250.821l3.822-6.385H97.7l3.766-6.637" transform="translate(-83.419 -203.903)"/>
+  <line id="Line_6" data-name="Line 6" class="cls-2" x1="1.512" y2="2.422" transform="translate(7.519 44.495)"/>
+  <line id="Line_7" data-name="Line 7" class="cls-2" x1="1.512" y2="2.422" transform="translate(25.608 44.495)"/>
+  <line id="Line_8" data-name="Line 8" class="cls-2" x1="1.512" y2="2.422" transform="translate(34.695 44.495)"/>
+  <path id="Path_589" data-name="Path 589" class="cls-2" d="M11.075,167.819H8.9S.7,167.329.7,159.1c0-6.707,5.922-8.415,7.869-8.6" transform="translate(0 -128.826)"/>
+  <path id="Path_590" data-name="Path 590" class="cls-2" d="M168.039,172.1l2.45.014c2.072,0,6.749,2.086,6.749,7.1,0,5.81-5.768,7.183-6.749,7.183H159.4" transform="translate(-136.48 -147.402)"/>
+  <path id="Path_591" data-name="Path 591" class="cls-2" d="M75.33,110.3a12,12,0,0,0-23.83-2.03" transform="translate(-43.687 -83.935)"/>
+  <path id="Path_592" data-name="Path 592" class="cls-2" d="M132.8,132c3.318.336,5.67,1.834,6.9,4.69" transform="translate(-113.605 -112.917)"/>
+  <path id="Path_593" data-name="Path 593" class="cls-2" d="M198.473,71.125A8.99,8.99,0,1,0,185.2,59.84" transform="translate(-158.668 -46.525)"/>
+  <line id="Line_9" data-name="Line 9" class="cls-2" x2="2.646" y2="2.646" transform="translate(23.298 5.894)"/>
+  <line id="Line_10" data-name="Line 10" class="cls-2" y2="3.738" transform="translate(34.709 0.7)"/>
+  <line id="Line_11" data-name="Line 11" class="cls-2" x1="2.646" y2="2.646" transform="translate(43.459 5.852)"/>
+  <line id="Line_12" data-name="Line 12" class="cls-2" x1="2.646" y1="2.646" transform="translate(43.459 26.126)"/>
+  <line id="Line_13" data-name="Line 13" class="cls-2" x1="3.738" transform="translate(47.562 17.277)"/>
+</svg>

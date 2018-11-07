@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 158.942 18.811">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #58585a;
+      }
+
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="container" transform="translate(-482.774 -1172.576)">
+    <path id="Path_398" data-name="Path 398" class="cls-1" d="M181.3,101.1v5.522h5l-3.279,2.761v-1.208H181.3v4.314h1.726v-1.208l3.279-2.589h13.806l.173-3.452h12.425l1.035,2.243,3.8-2.243h12.08L231,107.485l1.208-2.243h10.7l-.173-1.553H305.9l3.279-2.589H181.3Z" transform="translate(304.58 1073.374)"/>
+    <rect id="Rectangle_1118" data-name="Rectangle 1118" class="cls-2" width="1.553" height="11.39" transform="translate(593.913 1174.474)"/>
+    <path id="Path_399" data-name="Path 399" class="cls-2" d="M253.861,110.492h-2.416a.371.371,0,0,1-.345-.345v-8.8a.371.371,0,0,1,.345-.345h2.416a.371.371,0,0,1,.345.345v8.8A.371.371,0,0,1,253.861,110.492Z" transform="translate(355.238 1073.302)"/>
+    <rect id="Rectangle_1119" data-name="Rectangle 1119" class="cls-2" width="2.416" height="10.7" transform="translate(606.683 1180.342)"/>
+    <path id="Path_400" data-name="Path 400" class="cls-2" d="M254.769,111.263H250.8v-.173l.863-.69h2.416l.69.69Z" transform="translate(355.02 1080.124)"/>
+    <rect id="Rectangle_1120" data-name="Rectangle 1120" class="cls-2" width="1.553" height="11.39" transform="translate(560.26 1174.474)"/>
+    <rect id="Rectangle_1121" data-name="Rectangle 1121" class="cls-2" width="41.073" height="2.071" transform="translate(557.327 1184.139)"/>
+    <rect id="Rectangle_1122" data-name="Rectangle 1122" class="cls-2" width="41.073" height="2.071" transform="translate(557.327 1178.616)"/>
+    <rect id="Rectangle_1123" data-name="Rectangle 1123" class="cls-2" width="2.071" height="7.593" transform="translate(598.4 1178.616)"/>
+    <path id="Path_401" data-name="Path 401" class="cls-2" d="M338.442,102.589H179.5V100H338.442Z" transform="translate(303.274 1072.576)"/>
+    <g id="Group_85" data-name="Group 85" transform="translate(500.377 1175.337)">
+      <path id="Path_402" data-name="Path 402" class="cls-1" d="M207.648,110.747h-1.035a7.461,7.461,0,0,1-2.243,4.66h0a7.5,7.5,0,0,1-10.7,0,7.919,7.919,0,0,1-2.243-4.66H189.7v-.69a9.512,9.512,0,0,1,2.589-6.9h0a6.567,6.567,0,0,1,2.243-1.553h8.974a7.38,7.38,0,0,1,2.243,1.553h0a9.863,9.863,0,0,1,1.9,2.761v4.832Zm-8.629-4.832a4.142,4.142,0,1,0,4.142,4.142A4.2,4.2,0,0,0,199.019,105.914Z" transform="translate(-189.7 -101.6)"/>
+      <path id="Path_403" data-name="Path 403" class="cls-1" d="M195.826,105.5a1.729,1.729,0,0,0-1.726,1.726,1.63,1.63,0,0,0,1.726,1.726,1.729,1.729,0,0,0,1.726-1.726A1.63,1.63,0,0,0,195.826,105.5Z" transform="translate(-186.507 -98.77)"/>
+      <path id="Path_404" data-name="Path 404" class="cls-1" d="M217.648,110.747h-1.035a7.461,7.461,0,0,1-2.243,4.66h0a7.5,7.5,0,0,1-10.7,0,7.919,7.919,0,0,1-2.243-4.66H199.7v-.69a9.513,9.513,0,0,1,2.589-6.9h0a6.567,6.567,0,0,1,2.243-1.553h8.974a7.38,7.38,0,0,1,2.243,1.553h0a9.863,9.863,0,0,1,1.9,2.761v4.832Zm-8.629-4.832a4.142,4.142,0,1,0,4.142,4.142A4.2,4.2,0,0,0,209.019,105.914Z" transform="translate(-182.442 -101.6)"/>
+      <path id="Path_405" data-name="Path 405" class="cls-1" d="M205.826,105.5a1.729,1.729,0,0,0-1.726,1.726,1.63,1.63,0,0,0,1.726,1.726,1.726,1.726,0,0,0,0-3.452Z" transform="translate(-179.249 -98.77)"/>
+      <path id="Path_406" data-name="Path 406" class="cls-1" d="M210.1,110.747h1.035a7.461,7.461,0,0,0,2.243,4.66h0a7.5,7.5,0,0,0,10.7,0,7.919,7.919,0,0,0,2.243-4.66h1.726v-.69a9.513,9.513,0,0,0-2.589-6.9h0a6.567,6.567,0,0,0-2.243-1.553h-8.974A7.38,7.38,0,0,0,212,103.153h0a9.863,9.863,0,0,0-1.9,2.761v4.832Zm8.456-4.832a4.142,4.142,0,1,1-4.142,4.142A4.32,4.32,0,0,1,218.556,105.914Z" transform="translate(-174.894 -101.6)"/>
+      <path id="Path_407" data-name="Path 407" class="cls-1" d="M215.726,105.5a1.729,1.729,0,0,1,1.726,1.726,1.63,1.63,0,0,1-1.726,1.726,1.726,1.726,0,1,1,0-3.452Z" transform="translate(-172.064 -98.77)"/>
+    </g>
+    <g id="Group_88" data-name="Group 88" transform="translate(616.175 1173.784)">
+      <g id="Group_87" data-name="Group 87">
+        <path id="Path_414" data-name="Path 414" class="cls-1" d="M270.779,100.7H256.8v3.452l13.979-.69Z" transform="translate(-256.8 -100.7)"/>
+      </g>
+    </g>
+  </g>
+</svg>

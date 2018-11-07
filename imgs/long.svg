@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.747 51.45">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #444;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 1.4px;
+      }
+    </style>
+  </defs>
+  <g id="long" transform="translate(0.2 0.2)">
+    <path id="Path_640" data-name="Path 640" class="cls-1" d="M37.9,22.547V.5h3.611V25.4" transform="translate(-13.706)"/>
+    <path id="Path_641" data-name="Path 641" class="cls-1" d="M14.628,63.156h0A14.141,14.141,0,0,1,.5,49.028h0A14.141,14.141,0,0,1,14.628,34.9H22.1a6.651,6.651,0,0,1,6.652,6.652v7.476A14.1,14.1,0,0,1,14.628,63.156Z" transform="translate(0 -12.606)"/>
+    <circle id="Ellipse_17" data-name="Ellipse 17" class="cls-1" cx="7.539" cy="7.539" r="7.539" transform="translate(7.279 28.883)"/>
+    <line id="Line_16" data-name="Line 16" class="cls-1" x2="2.978" transform="translate(27.869 0.5)"/>
+    <line id="Line_17" data-name="Line 17" class="cls-1" x1="1.394" transform="translate(26.349 2.021)"/>
+    <line id="Line_18" data-name="Line 18" class="cls-1" x1="2.281" transform="translate(25.462 3.984)"/>
+    <line id="Line_19" data-name="Line 19" class="cls-1" x1="1.394" transform="translate(26.349 5.948)"/>
+    <line id="Line_20" data-name="Line 20" class="cls-1" x1="2.281" transform="translate(25.462 7.912)"/>
+    <line id="Line_21" data-name="Line 21" class="cls-1" x1="1.394" transform="translate(26.349 9.876)"/>
+    <line id="Line_22" data-name="Line 22" class="cls-1" x1="2.281" transform="translate(25.462 11.84)"/>
+    <line id="Line_23" data-name="Line 23" class="cls-1" x1="1.394" transform="translate(26.349 13.804)"/>
+    <line id="Line_24" data-name="Line 24" class="cls-1" x1="2.281" transform="translate(25.462 15.768)"/>
+    <line id="Line_25" data-name="Line 25" class="cls-1" x1="1.394" transform="translate(26.349 17.732)"/>
+    <line id="Line_26" data-name="Line 26" class="cls-1" x1="2.281" transform="translate(25.462 19.696)"/>
+    <line id="Line_27" data-name="Line 27" class="cls-1" x1="1.394" transform="translate(26.349 21.66)"/>
+    <path id="Path_642" data-name="Path 642" class="cls-1" d="M17.2,57.925V55.137A1.839,1.839,0,0,1,19.037,53.3h0a1.839,1.839,0,0,1,1.837,1.837v2.788" transform="translate(-6.12 -19.349)"/>
+    <path id="Path_643" data-name="Path 643" class="cls-1" d="M23.1,55.237A1.839,1.839,0,0,1,24.937,53.4h0a1.839,1.839,0,0,1,1.837,1.837v2.788" transform="translate(-8.282 -19.386)"/>
+    <path id="Path_644" data-name="Path 644" class="cls-1" d="M18.485,33.812h0a1.5,1.5,0,0,0-1.647-1.521,18.342,18.342,0,0,0-2.534.824c-1.077.317-1.711.19-2.471.507a1.406,1.406,0,0,0-.634,1.964v.063" transform="translate(-3.857 -11.645)"/>
+  </g>
+</svg>
