@@ -188,20 +188,27 @@ body {
 
 @media (min-width: 768px) {
   .navbar-nav .nav-link {
-    transition: all ease-in-out 200ms; }
+    transition: all ease-in-out 200ms;
+    position: relative; }
   .main_menu .nav-link:after {
     content: "";
+    position: absolute;
+    bottom: 0;
     height: 0px;
     margin: 0 auto;
+    left: 0.5rem;
+    right: 0.5rem;
     border-bottom: #F78E1E solid 2px;
-    width: 0%;
     display: block;
-    transition: width ease-out 120ms; }
+    transition: opacity ease-out 120ms, bottom ease-out 120ms;
+    opacity: 0; }
   .main_menu .nav-link:hover:after {
-    width: 100%; }
+    bottom: 0.3rem;
+    opacity: 1; }
   .main_menu .active .nav-link:after {
     border-color: #f2f2f2;
-    width: 100%; }
+    bottom: 0.3rem;
+    opacity: 1; }
   .top_search input[type=text] {
     width: 51px;
     background-color: transparent;
@@ -335,15 +342,18 @@ footer {
   padding-top: 15px; }
   .links_block a {
     margin-bottom: 10px;
-    display: block; }
+    display: block;
+    transition: padding-left 150ms ease; }
     .links_block a:hover {
-      text-decoration: underline; }
+      text-decoration: underline;
+      padding-left: 5px; }
 
 .newsletter {
   padding-top: 15px; }
-  .newsletter h5 {
+  .newsletter .newsletter_title {
     margin-bottom: 0px;
-    color: #fff; }
+    color: #fff;
+    font-size: 20px; }
   .newsletter small {
     font-size: 12px;
     color: #999; }
@@ -642,7 +652,7 @@ footer {
   .katalog_links a img {
     margin: 8px 0;
     max-width: 100%; }
-  .katalog_links a h6 {
+  .katalog_links a h4 {
     text-align: left;
     text-transform: uppercase;
     font-weight: 400;
@@ -650,7 +660,7 @@ footer {
     margin-bottom: 15px;
     position: relative;
     padding-top: 8px; }
-    .katalog_links a h6:before {
+    .katalog_links a h4:before {
       content: "";
       position: absolute;
       height: 2px;
@@ -660,7 +670,7 @@ footer {
       left: 0; }
   .katalog_links a:active, .katalog_links a:focus {
     background-color: #444444; }
-    .katalog_links a:active h6, .katalog_links a:focus h6 {
+    .katalog_links a:active h4, .katalog_links a:focus h4 {
       color: #fff; }
     .katalog_links a:active img, .katalog_links a:focus img {
       filter: invert(0.5); }
@@ -683,15 +693,16 @@ footer {
     top: 0;
     left: 0; }
 
-a.read_more {
+.read_more {
   margin-top: 15px;
   font-size: 13px;
   color: #807F83;
   border-radius: 0;
   border: 1px solid #DDDDDD;
   padding: 9px 16px;
-  text-transform: uppercase; }
-  a.read_more:hover {
+  text-transform: uppercase;
+  background-color: #fff; }
+  .read_more:hover {
     color: #444444;
     border-color: #807F83; }
 
@@ -866,13 +877,14 @@ a.read_more {
       -moz-align-content: stretch;
       -ms-align-content: stretch;
       align-content: stretch; } }
-  .kat_item_disc .kat_item_tags a {
-    margin-bottom: 8px;
+  .kat_item_disc .kat_item_tags h3 {
+    margin: 0 18px 8px 0;
     display: inline-block;
+    font-size: 14px;
+    white-space: nowrap; }
+  .kat_item_disc .kat_item_tags a {
     color: #444444;
-    margin-right: 18px;
     border-bottom: 2px solid #f2f2f2;
-    white-space: nowrap;
     transition: color 200ms ease; }
     .kat_item_disc .kat_item_tags a:hover {
       color: #F78E1E; }
@@ -1036,6 +1048,8 @@ a.read_more {
     font-size: 18px;
     border-bottom: 2px solid #DDDDDD;
     padding: 15px 0 10px; }
+    .prod_disc h2 a {
+      color: #444444; }
     @media (max-width: 992px) {
       .prod_disc h2 {
         font-weight: 400;
@@ -1093,6 +1107,9 @@ a.read_more {
 #product_details .gray_bg {
   padding-bottom: 6px; }
 
+.modal-title {
+  font-size: 22px; }
+
 .var_item {
   max-width: 360px;
   margin: 0 auto 10px;
@@ -1130,14 +1147,15 @@ a.read_more {
   position: relative; }
 
 .conf_head, .spec_head {
-  font-weight: 400; }
+  font-weight: 400;
+  font-size: 20px; }
 
 @media (max-width: 767px) {
   .spec_head {
     margin-top: 25px; } }
 
 @media (min-width: 768px) {
-  h5.spec_head {
+  .spec_head {
     position: absolute;
     top: -32px; } }
 
@@ -1290,7 +1308,7 @@ a.read_more {
 
 #ref_gallery {
   padding: 80px 0; }
-  #ref_gallery h2 {
+  #ref_gallery h3 {
     margin-bottom: 30px; }
   #ref_gallery img {
     max-width: 100%;
@@ -1419,7 +1437,7 @@ a.read_more {
 .dealer_title {
   margin-top: 10px;
   padding-top: 15px; }
-  .dealer_title h3 {
+  .dealer_title h2 {
     background-color: #F78E1E;
     padding: 20px 15px 15px 15px;
     color: #fff;
@@ -1485,14 +1503,14 @@ a.read_more {
       -ms-flex-order: 2;
       -webkit-order: 2;
       order: 2; } }
-  .dealer_team h4 {
+  .dealer_team h3 {
     font-size: 18px;
     font-weight: 400;
     margin: 10px 0 0 0; }
-    .dealer_team h4 small {
+    .dealer_team h3 small {
       display: none; }
       @media (max-width: 767px) {
-        .dealer_team h4 small {
+        .dealer_team h3 small {
           display: inline; } }
   @media (max-width: 767px) {
     .dealer_team .row {
@@ -1527,7 +1545,8 @@ a.read_more {
   .sales_profile h6 {
     padding: 6px 0;
     background-color: #fff;
-    margin: 0; }
+    margin: 0;
+    font-size: 16px; }
     .sales_profile h6:before {
       content: "";
       position: absolute;
@@ -1594,7 +1613,7 @@ a.read_more {
     margin-top: 5px; }
   .dealer_title {
     padding-top: 0; }
-    .dealer_title h3 {
+    .dealer_title h2 {
       color: #F78E1E;
       border-top: 2px solid #DDDDDD; }
   .dealer_team {

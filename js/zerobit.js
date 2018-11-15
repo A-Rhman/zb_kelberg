@@ -190,6 +190,13 @@ homeowl.owlCarousel({
 
 $(document).ready(function(){
 
+$(".prod_item").find(".read_more, .prod_img img").on("click", function(e){
+    e.preventDefault();
+    var prod_link= $(this).parents('.prod_item').find('a').attr("href");
+    //console.log(prod_link);
+    window.location.href = prod_link;
+});
+
 
 var prodowl = $("#prod_slider");
 var prod_calch = prodowl.find(".slide_img").has("img").outerHeight();
