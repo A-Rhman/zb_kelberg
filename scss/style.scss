@@ -86,7 +86,7 @@ a{color: $or;
 }
 
 
-.conf_disc ul, ul.kel_styl{
+.conf_disc ul, ul.kel_styl, .txt_page ul{
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -139,7 +139,7 @@ body {
 }
 .top_menu{
     margin-bottom: 15px;
-    a.nav-link{color: $gr2; transition: color ease 200ms, background-color ease 280ms; height: 38px; margin-left:2px; padding: 8px 10px;}
+    a.nav-link{color: $gr2; transition: color ease 200ms, background-color ease 280ms; height: 38px; margin-left:2px; padding:10px;}
     a.nav-link:hover{background-color: $gr12}
     .dropdown-toggle[aria-expanded=true]{background-color: $gr12; color: $gr3;}
 }
@@ -654,7 +654,7 @@ footer{
 //// Katalog Item Page
 
 #kat_item{
-    .gray_bg .container{
+    .container{
         background-color:#fff;
     }
 }
@@ -865,7 +865,7 @@ footer{
 
 .prod_btns{
     padding-top: 15px;
-    a{
+    a, button{
         @media #{$md}{padding: 9px 15px; margin-left: 15px;}
         margin-top: 0;
     }
@@ -1219,7 +1219,60 @@ footer{
 
 
 
+/****** Text Pages */
 
+.txt_head{
+    background-color: $gr3;
+    
+    h1{
+        font-weight: 300;
+        font-size: 26px; 
+
+        padding: 70px 10px 10px;
+        color: #fff;
+    }
+    a.breadcrumber{
+        background: none;
+        padding: 10px 10px 10px;
+        color: $gr12;
+        float: right;
+        span{margin-right: 3px;}
+        &:hover{background-color: $gr2; color: #fff}
+    }
+}
+
+.gray_txt{
+    color: $gr2;
+}
+
+.txt_page{
+    section{
+        padding-top: 50px;
+    }
+    section#kat_item{
+        padding: 0;
+        margin-top: 0px;
+    }
+    h2, h3, h4, h5{
+        font-weight: 500;
+        margin-bottom: 20px;
+        small{display: block; padding-top: 5px; color: $gr2;}
+    }
+    @media #{$sm}{img.img-fluid{margin-bottom:15px;}}
+    .top_line{
+        position: relative;
+        padding-top: 15px;
+        &:before{@include line(25px, 3px)}
+    }
+    .gray_bg{
+        padding: 50px 0;
+        margin-top: 30px;
+    }
+    ul{
+        padding-left: 20px;
+        margin: 10px 0;
+    }
+}
 
 
 @media print {
